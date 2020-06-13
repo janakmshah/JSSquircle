@@ -5,11 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 [![Platform](https://img.shields.io/cocoapods/p/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 
-## Example
+The difference is subtle but powerful. Your typical `layer.cornerRadius` rounded rectangle has a constant corner radius, it is the same as placing 4 perfect circles in each corner, which can be a little jarring. A **squircle**, on the other hand, gently increases the curve at it goes from straight-edge to rounded corner. The corner is more of an elipse than a perfect circle.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+[SquircleArticleLink]: https://medium.com/minimal-notes/rounded-corners-in-the-apple-ecosystem-1b3f45e18fcc
+[![SquircleExampleImage](../master/assets/Squircle.jpeg?raw=true)][SquircleArticleLink]
+[*source*](https://medium.com/minimal-notes/rounded-corners-in-the-apple-ecosystem-1b3f45e18fcc)
 
 ## Installation
 
@@ -19,6 +19,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JSSquircle'
 ```
+
+## Usage
 
 ## Author
 
