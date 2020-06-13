@@ -1,0 +1,6 @@
+framework module JSSquircle {
+  umbrella header "JSSquircle-umbrella.h"
+
+  export *
+  module * { export * }
+}

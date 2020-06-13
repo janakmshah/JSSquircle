@@ -1,0 +1,16 @@
+PODS:
+  - JSSquircle (0.1.0)
+
+DEPENDENCIES:
+  - JSSquircle (from `../`)
+
+EXTERNAL SOURCES:
+  JSSquircle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSSquircle: 2f03b8177b8e0bc502c413a6ac6c7cfbbda00140
+
+PODFILE CHECKSUM: 5ec13234856002bd5b5b11485408664e067d1ec9
+
+COCOAPODS: 1.9.1

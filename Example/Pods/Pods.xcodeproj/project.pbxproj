@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097BA97D4A53C5D31BDFDFA552EB66B1 /* Pods-JSSquircle_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0E04CF52B93048197F25764CBE47D38 /* Pods-JSSquircle_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3722310F95233138DED62ED555194C /* JSSquircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6DD61AA85B037B3E02ACB5B923B3AD /* JSSquircle.swift */; };
+		5A158C9AAAAC8563AB763D499227ACB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6746ABC0599CA40026A5A9D1B443EB2B /* Pods-JSSquircle_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBFC5C03D8659BB845D163F6A4ED93F /* Pods-JSSquircle_Tests-dummy.m */; };
+		A9BBDD485DB72B4071C5677C508E165E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EFA5DB374730F3CFC4BD56270D78160A /* JSSquircle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B45D93BD7FED33E99DDF7E955DFB6D /* JSSquircle-dummy.m */; };
+		F9ACDD3873304DB7482F5448103019BE /* JSSquircle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 714B7A93F9AF2C0CC06A536C895E8F5D /* JSSquircle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E46A5B97B23F32F7D0172189F0EFBE64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A63FD8D86656A66E01C27394DA1485C;
+			remoteInfo = JSSquircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154A538CB2095609A8301252441E4DBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		18B45D93BD7FED33E99DDF7E955DFB6D /* JSSquircle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSSquircle-dummy.m"; sourceTree = "<group>"; };
+		1A6DD61AA85B037B3E02ACB5B923B3AD /* JSSquircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSSquircle.swift; path = JSSquircle/Classes/JSSquircle.swift; sourceTree = "<group>"; };
+		1C7A3F8E305B9A87BAC2C6985FEBD640 /* JSSquircle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSSquircle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBF6163309DE595B13A545ADA841C3F /* JSSquircle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSquircle-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F71B9272716C3BE2941E0B477A1973F /* JSSquircle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSSquircle-Info.plist"; sourceTree = "<group>"; };
+		401B073DD3D48F4C39E557AF4EFFB1DF /* Pods-JSSquircle_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSSquircle_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5BB009DFA5BE41739C28F1FE76452227 /* Pods-JSSquircle_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSSquircle_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		67AF5E8C4799EEC4AAA573AAA42860A6 /* Pods-JSSquircle_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSquircle_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		714B7A93F9AF2C0CC06A536C895E8F5D /* JSSquircle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSSquircle-umbrella.h"; sourceTree = "<group>"; };
+		78B76ABEF64552D543440CA1118D2673 /* JSSquircle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSSquircle.modulemap; sourceTree = "<group>"; };
+		802E3884B0C8FDD869DDF7121E1313FD /* Pods-JSSquircle_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSSquircle_Tests.modulemap"; sourceTree = "<group>"; };
+		87734D38A8208D7809A754FDCDC0E0E9 /* Pods_JSSquircle_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSSquircle_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88ED08B1566A03DC680F1B7DF242ED55 /* Pods-JSSquircle_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSquircle_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DBFC5C03D8659BB845D163F6A4ED93F /* Pods-JSSquircle_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSSquircle_Tests-dummy.m"; sourceTree = "<group>"; };
+		A6FC7F27F759998F7D4FE6C0FAD153B9 /* JSSquircle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSSquircle.debug.xcconfig; sourceTree = "<group>"; };
+		B3A5D7F048E0B706D248D336DD4C2D97 /* JSSquircle.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JSSquircle.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFC516937464BB30E454D3FE41C40BFC /* JSSquircle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSSquircle.release.xcconfig; sourceTree = "<group>"; };
+		C93070C921B0A0F5634D5235F97F4820 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D0E04CF52B93048197F25764CBE47D38 /* Pods-JSSquircle_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSSquircle_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DECCFEB51F3DCF1EC2FBBDF67BD78E70 /* Pods-JSSquircle_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSSquircle_Tests-Info.plist"; sourceTree = "<group>"; };
+		F6E1A60435F03A7B4FD8ADD0F3F4DAD1 /* Pods-JSSquircle_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSSquircle_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F3BFE8F9CCDCB81784140A180903CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A158C9AAAAC8563AB763D499227ACB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F84DC06095539C9686DF3631690F9DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BBDD485DB72B4071C5677C508E165E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16869A504EEE772BA491AC63D358E325 /* JSSquircle */ = {
+			isa = PBXGroup;
+			children = (
+				1A6DD61AA85B037B3E02ACB5B923B3AD /* JSSquircle.swift */,
+				CB0AB34B253855D4A2E140A6DFEFE9F4 /* Pod */,
+				F6CDFAC6E4104A241B455D35F1D69099 /* Support Files */,
+			);
+			name = JSSquircle;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5C31DB3580EF0F1455E341906C95F792 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6A95638E3EBBC8EE548C02EBC41B1B1 /* Pods-JSSquircle_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		767F6E163169C4722F06C1F55A6243E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16869A504EEE772BA491AC63D358E325 /* JSSquircle */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		799DEA30544440700FCB1CBFE5433742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A3F8E305B9A87BAC2C6985FEBD640 /* JSSquircle.framework */,
+				87734D38A8208D7809A754FDCDC0E0E9 /* Pods_JSSquircle_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6A95638E3EBBC8EE548C02EBC41B1B1 /* Pods-JSSquircle_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				802E3884B0C8FDD869DDF7121E1313FD /* Pods-JSSquircle_Tests.modulemap */,
+				401B073DD3D48F4C39E557AF4EFFB1DF /* Pods-JSSquircle_Tests-acknowledgements.markdown */,
+				88ED08B1566A03DC680F1B7DF242ED55 /* Pods-JSSquircle_Tests-acknowledgements.plist */,
+				9DBFC5C03D8659BB845D163F6A4ED93F /* Pods-JSSquircle_Tests-dummy.m */,
+				5BB009DFA5BE41739C28F1FE76452227 /* Pods-JSSquircle_Tests-frameworks.sh */,
+				DECCFEB51F3DCF1EC2FBBDF67BD78E70 /* Pods-JSSquircle_Tests-Info.plist */,
+				D0E04CF52B93048197F25764CBE47D38 /* Pods-JSSquircle_Tests-umbrella.h */,
+				67AF5E8C4799EEC4AAA573AAA42860A6 /* Pods-JSSquircle_Tests.debug.xcconfig */,
+				F6E1A60435F03A7B4FD8ADD0F3F4DAD1 /* Pods-JSSquircle_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSSquircle_Tests";
+			path = "Target Support Files/Pods-JSSquircle_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CB0AB34B253855D4A2E140A6DFEFE9F4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3A5D7F048E0B706D248D336DD4C2D97 /* JSSquircle.podspec */,
+				C93070C921B0A0F5634D5235F97F4820 /* LICENSE */,
+				154A538CB2095609A8301252441E4DBF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				767F6E163169C4722F06C1F55A6243E5 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				799DEA30544440700FCB1CBFE5433742 /* Products */,
+				5C31DB3580EF0F1455E341906C95F792 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6CDFAC6E4104A241B455D35F1D69099 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78B76ABEF64552D543440CA1118D2673 /* JSSquircle.modulemap */,
+				18B45D93BD7FED33E99DDF7E955DFB6D /* JSSquircle-dummy.m */,
+				3F71B9272716C3BE2941E0B477A1973F /* JSSquircle-Info.plist */,
+				2BBF6163309DE595B13A545ADA841C3F /* JSSquircle-prefix.pch */,
+				714B7A93F9AF2C0CC06A536C895E8F5D /* JSSquircle-umbrella.h */,
+				A6FC7F27F759998F7D4FE6C0FAD153B9 /* JSSquircle.debug.xcconfig */,
+				BFC516937464BB30E454D3FE41C40BFC /* JSSquircle.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSSquircle";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4109A9ADDC2266504989BB1D95908AFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097BA97D4A53C5D31BDFDFA552EB66B1 /* Pods-JSSquircle_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D184D8DFE1E0DF11B1EA6A33B3B43BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ACDD3873304DB7482F5448103019BE /* JSSquircle-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5A63FD8D86656A66E01C27394DA1485C /* JSSquircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152B9E7487C00746D68B3CBD70872B9B /* Build configuration list for PBXNativeTarget "JSSquircle" */;
+			buildPhases = (
+				D184D8DFE1E0DF11B1EA6A33B3B43BE5 /* Headers */,
+				F6AE4109E29BF634A93BCAD767369C37 /* Sources */,
+				5F84DC06095539C9686DF3631690F9DB /* Frameworks */,
+				A4AB923FEEE0AA54C1654FAE764F0063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSSquircle;
+			productName = JSSquircle;
+			productReference = 1C7A3F8E305B9A87BAC2C6985FEBD640 /* JSSquircle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DDEA7A0A6476D74AA41B6C820EB7976 /* Pods-JSSquircle_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1A50CDB0375CC3C739FA425B2948F11 /* Build configuration list for PBXNativeTarget "Pods-JSSquircle_Tests" */;
+			buildPhases = (
+				4109A9ADDC2266504989BB1D95908AFF /* Headers */,
+				EA9449152BDAC388AFC7F27BF5676F30 /* Sources */,
+				32F3BFE8F9CCDCB81784140A180903CA /* Frameworks */,
+				E4318E377B7261746FC21DE6214A8C6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DE6EC4D82A140C7CD0AB23F484F2AA3 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSSquircle_Tests";
+			productName = "Pods-JSSquircle_Tests";
+			productReference = 87734D38A8208D7809A754FDCDC0E0E9 /* Pods_JSSquircle_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 799DEA30544440700FCB1CBFE5433742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A63FD8D86656A66E01C27394DA1485C /* JSSquircle */,
+				5DDEA7A0A6476D74AA41B6C820EB7976 /* Pods-JSSquircle_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AB923FEEE0AA54C1654FAE764F0063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4318E377B7261746FC21DE6214A8C6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9449152BDAC388AFC7F27BF5676F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6746ABC0599CA40026A5A9D1B443EB2B /* Pods-JSSquircle_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AE4109E29BF634A93BCAD767369C37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA5DB374730F3CFC4BD56270D78160A /* JSSquircle-dummy.m in Sources */,
+				0D3722310F95233138DED62ED555194C /* JSSquircle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DE6EC4D82A140C7CD0AB23F484F2AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSSquircle;
+			target = 5A63FD8D86656A66E01C27394DA1485C /* JSSquircle */;
+			targetProxy = E46A5B97B23F32F7D0172189F0EFBE64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A9B54E2247FC6A92D224DC4CB876062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AF5E8C4799EEC4AAA573AAA42860A6 /* Pods-JSSquircle_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSquircle_Tests/Pods-JSSquircle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSquircle_Tests/Pods-JSSquircle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF5D5F1BC9F195E99A46FD2CE95AFBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6E1A60435F03A7B4FD8ADD0F3F4DAD1 /* Pods-JSSquircle_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSSquircle_Tests/Pods-JSSquircle_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSSquircle_Tests/Pods-JSSquircle_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D09B42334FE3F90F756601AE228E86A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC516937464BB30E454D3FE41C40BFC /* JSSquircle.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSSquircle/JSSquircle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSquircle/JSSquircle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSquircle/JSSquircle.modulemap";
+				PRODUCT_MODULE_NAME = JSSquircle;
+				PRODUCT_NAME = JSSquircle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0755ACB222173CDF207647E02033D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FC7F27F759998F7D4FE6C0FAD153B9 /* JSSquircle.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSSquircle/JSSquircle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSSquircle/JSSquircle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSSquircle/JSSquircle.modulemap";
+				PRODUCT_MODULE_NAME = JSSquircle;
+				PRODUCT_NAME = JSSquircle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		152B9E7487C00746D68B3CBD70872B9B /* Build configuration list for PBXNativeTarget "JSSquircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0755ACB222173CDF207647E02033D7B /* Debug */,
+				D09B42334FE3F90F756601AE228E86A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1A50CDB0375CC3C739FA425B2948F11 /* Build configuration list for PBXNativeTarget "Pods-JSSquircle_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A9B54E2247FC6A92D224DC4CB876062 /* Debug */,
+				CF5D5F1BC9F195E99A46FD2CE95AFBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
