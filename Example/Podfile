@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JSSquircle_Tests' do
+  pod 'JSSquircle', :path => '../'
+  
+  
+end
