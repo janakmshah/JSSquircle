@@ -1,6 +1,6 @@
 # JSSquircle
 
-[![CI Status](https://img.shields.io/travis/Janak Shah/JSSquircle.svg?style=flat)](https://travis-ci.org/Janak Shah/JSSquircle)
+[![CI Status](https://img.shields.io/travis/janakmshah/JSSquircle.svg?style=flat)](https://travis-ci.org/janakmshah/JSSquircle)
 [![Version](https://img.shields.io/cocoapods/v/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 [![License](https://img.shields.io/cocoapods/l/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 [![Platform](https://img.shields.io/cocoapods/p/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
