@@ -22,7 +22,7 @@ pod 'JSSquircle'
 
 ## Author
 
-Janak Shah, janak.shah@cuvva.com
+Janak Shah, [janakshah.com](https://janakshah.com)
 
 ## License
 
