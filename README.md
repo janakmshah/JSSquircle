@@ -7,7 +7,7 @@
 
 The difference is subtle but powerful. Your typical `layer.cornerRadius` rounded rectangle has a constant corner radius, it is the same as placing 4 perfect circles in each corner, which can be a little jarring. A **squircle**, on the other hand, gently increases the curve at it goes from straight-edge to rounded corner. The corner is more of an elipse than a perfect circle.
 
-[![SquircleExampleImage](../master/assets/Squircle.jpeg?raw=true)]
+![SquircleExampleImage](../master/assets/Squircle.jpeg?raw=true)
 [*Image source*](https://medium.com/minimal-notes/rounded-corners-in-the-apple-ecosystem-1b3f45e18fcc)
 
 ## Installation
