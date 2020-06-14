@@ -21,6 +21,34 @@ pod 'JSSquircle'
 
 ## Usage
 
+### Programmatic
+
+Use the class `Squircle` exactly the same as you would `UIView`, just set the `cornerRadius` property and you're good to go.
+
+If you created a roundedRect like this:
+
+```swift
+let roundedRect = UIView(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+roundedRect.layer.cornerRadius = 10
+self.view.addSubview(roundedRect)
+```
+
+To replace this with a smooth Squircle all you need to do is replace `UIView` with `Squircle` like so:
+
+```swift
+let roundedRect = Squircle(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+roundedRect.layer.cornerRadius = 10
+self.view.addSubview(roundedRect)
+```
+
+### Storyboard
+
+Add a UIView to your Storyboard as normal, then change the `Class` under `Identity inspector` from `UIView` to `Squircle`.
+![IdentityInspector](../master/assets/IdentityInspector.jpeg?raw=true)
+Then set the `cornerRadius` to whatever you want in the `Attributes inspector`.
+![AttributesInspector](../master/assets/AttributesInspector.jpeg?raw=true)
+That's it!
+
 ## Author
 
 Janak Shah, [janakshah.com](https://janakshah.com)
