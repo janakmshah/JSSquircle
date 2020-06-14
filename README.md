@@ -44,9 +44,9 @@ self.view.addSubview(roundedRect)
 ### Storyboard
 
 Add a UIView to your Storyboard as normal, then change the `Class` under `Identity inspector` from `UIView` to `Squircle`.
-![IdentityInspector](../master/assets/IdentityInspector.jpeg?raw=true)
+![IdentityInspector](../master/assets/IdentityInspector.png?raw=true)
 Then set the `cornerRadius` to whatever you want in the `Attributes inspector`.
-![AttributesInspector](../master/assets/AttributesInspector.jpeg?raw=true)
+![AttributesInspector](../master/assets/AttributesInspector.png?raw=true)
 That's it!
 
 ## Author
