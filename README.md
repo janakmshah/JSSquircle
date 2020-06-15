@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 [![Platform](https://img.shields.io/cocoapods/p/JSSquircle.svg?style=flat)](https://cocoapods.org/pods/JSSquircle)
 
-The difference between a square with round corners and a Squircle is small but can have a big impact on the overall feel of an app - https://99percentinvisible.org/article/circling-square-designing-squircles-instead-rounded-rectangles/
+The difference between a square with round corners and a Squircle is small but can have a big impact on the overall feel of your app - https://99percentinvisible.org/article/circling-square-designing-squircles-instead-rounded-rectangles/
 
-Your typical `layer.cornerRadius` rounded rectangle has a constant corner radius, it's like placing 4 perfect circles on each corner, the result is a jarring transition from straight to curve. A **squircle**, on the other hand, gently increases the curve at it goes from straight-edge to rounded corner. Making it more of an elipse than a perfect circle.
+Your typical `layer.cornerRadius` rounded rectangle has a constant corner radius, it's like placing 4 perfect circles on each corner, the result is a slightly jarring transition from straight to curve. A **squircle**, on the other hand, gently increases the curve at it goes from straight-edge to rounded corner. Making it more of an elipse than a perfect circle.
 
 Apple uses the Squircle A LOT in their designs:
 ![AppleIcons](../master/assets/AppleIcons.png?raw=true)
