@@ -42,9 +42,10 @@ roundedRect.layer.cornerRadius = 10
 self.view.addSubview(roundedRect)
 ```
 
-To replace this with a smooth Squircle all you need to do is replace `UIView` with `Squircle` like so:
+To replace this with a smooth Squircle all you need to do is import this module and then replace `UIView` with `Squircle` like so:
 
 ```swift
+import JSSquircle
 let roundedRect = Squircle(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
 roundedRect.layer.cornerRadius = 10
 self.view.addSubview(roundedRect)
