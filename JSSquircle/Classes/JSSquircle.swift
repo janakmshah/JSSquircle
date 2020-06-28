@@ -1,7 +1,7 @@
 
-@IBDesignable public class Squircle: UIView {
+@IBDesignable open class Squircle: UIView {
     
-    @IBInspectable public var cornerRadius: CGFloat = 0.0 {
+    @IBInspectable open var cornerRadius: CGFloat = 0.0 {
         didSet {
             layer.cornerRadius = cornerRadius
         }
